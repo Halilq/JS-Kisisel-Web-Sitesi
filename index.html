@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="HALIL AKKAYA">
+    <meta name="description" content="Halil Akkaya Kişisel Web Sitesi">
+    <meta name="keywords" content="website, web, tasarım, dizayn, yazılım, programlama, kişisel, blog, web, site">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D6TD0LKQ3C"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-D6TD0LKQ3C');
+</script>
+    <link  href="img/favicon.png" rel="icon">
+    <link  href="img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom/extra.css">
+    <!-- Font icons pulled from remix icon CDN (Content delivery network) -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- scrollReveal js -->
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <title>Halil Akkaya Kişisel Web Sitesi</title>
+    <script>
+        ScrollReveal({ reset: true });
+    </script>
+     <!-- Typed.js -->
+    <script src="assests/js/typed.js"></script>
+</head>
+<style>
+    @import url(assests/css/all.css);
+    @import url(assests/css/custom/extra.css);
+</style>
+<body id="main-body">
+    <!-- pre loader -->
+    <div class="pre-loader"><img src="assests/img/loader1.gif" class="img-fluid" alt="">
+    </div>
+    <a id="scroll-up" class="d-none" title="Yukarı Çık"><i class="fa-solid fa-angle-up"></i></a>
+    <!-- navigation-start -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNavbar">
+            <div class="container">
+                <a href="#main-body" class=" navbar-brand text-uppercase" id="logo" title="Ana Sayfa">halil akkaya</a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#myNavbar" aria-controls="myNavbar" aria-label="menü aç kapa butonu" aria-expanded="false"><span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="offcanvas offcanvas-end" id="myNavbar" tabindex="-1" aria-labelledby="canvaslabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="canvaslabel">Menü</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Kapat"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <!-- justify-content-end flex-grow-1 ms-auto py-lg-2 -->
+                    <ul class="navbar-nav  ms-auto text-uppercase py-lg-2"> 
+                        <li class="nav-item"> <a href="#main-body" class="nav-link btn-close-canvas"> Ana Sayfa</a> </li>
+                        <li class="nav-item"><a href="#about" class="nav-link btn-close-canvas"> Ben Kimim?</a></li>
+                        <li class="nav-item"><a href="#education" class="nav-link btn-close-canvas"> Eğitim</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link btn-close-canvas">Yetkinliklerim</a></li>
+                    </ul>
+                </div>
+    </div>
+        </div>
+    </nav>
+    <!-- header-start --> 
+    <div id="particles-js"></div>
+    <header class="bgImage text-white headline" id="header-div">
+       
+            <div class="container reveal1">
+                <!-- mainPage-cols start -->
+                <!-- col1-main-img -->
+                <div class="row d-flex">
+                    <div id="foto-card" class="col-lg-4 mb-4 mb-lg-0">
+                        <div class=" w-75 h-75 ms-auto me-auto card bg-transparent ">
+                            <img src="assests/img/faviconBig.png" alt="" class="img-fluid rounded">
+                        </div>
+                    </div>
+                    <!-- col1-main-img end -->
+                    <!-- col2-midColumn start -->
+                    <div class="col-lg-4 mb-5 mb-lg-0 text-center">
+                        <div class="bgImage-sub mb-3 txtReveal">Merhaba, Hoş Geldin!</div>
+                        <div class="bgImage-heading txtReveal"> Tanıştığıma Memnun Oldum!</div>
+                        <div class="linkCok">
+                            <a href="#about" id="me-about" class="  btnReveal  btn p-lg-4 text-uppercase fw-bolder">Hadi Başlayalım<i class="bi bi-caret-down-fill ms-1"></i></a>
+                        </div>
+                    </div>
+                    <!--col2-midColumn end  -->
+                    <!-- col3-leftColumn start -->
+                    <div class="col-lg-4 mb-4 mb-lg-0 ">
+                        <h5 id="social-h5"class="text-center text-uppercase ">Socıal Medıa</h5>
+                        <hr class="mb-3">
+                            <div class="col-12 mt-1">
+                                <div class="social icons-wrapper d-flex align-items-center justify-content-center">
+                                    <div class="social-div row">
+                                        <a href="https://www.instagram.com/_halil.akkaya/"id="reveal-link" class="link" target="_blank"><i class="fa-brands fa-instagram instagram"></i></a>
+                                        <a href="https://twitter.com/_halilimsi"id="reveal-link" class="link" target="_blank"><i class="fa-brands fa-twitter twitter"></i></a>
+                                        <a href="https://www.linkedin.com/in/halil-akkaya-b14586241/"id="reveal-link" class="link" target="_blank"><i class="fa-brands fa-linkedin linkedin"></i></a>
+                                        <a href="https://github.com/Halilq"id="reveal-link" class="link" target="_blank"><i class="fa-brands fa-github github"></i></a>
+                                    </div>
+                                </div><!-- social-icons end -->
+                    </div> <!-- col-lg-4 end  -->
+                </div><!-- col3-leftColumn start -->
+            </div><!-- row end -->  
+        </div>
+    </header>
+    <!-- about start -->
+    <section id="about" style="background-color: #e6e6e6 !important;" class="pt-3 pb-5" class="headline">
+        <div class="container-fluid about-mainDiv"><h5 class="display-5 text-center css-h5">
+            <i class="bi bi-person-check-fill me-2"></i>HAKKIMDA</h5>
+            <hr class="mt-0"></div>
+        <div class="container">
+            
+            <div class="row align-items-center justify-content-center mt-4 about-card">
+                <div class="col-lg-3 container-img"><!-- card-container -->
+                    <div class="shadow-lg rounded-5 bg-light profile-img mb-4 mt-3 mt-lg-0 mb-lg-0 ms-auto me-auto"><!-- card -->
+                        <img src="assests/img/foto.jpg" class="img-fluid card-profile-img" alt="">                       
+                    </div>
+                </div>
+                <div class="col-lg-7 ms-lg-4 mt-3 about-content">
+                        <h2 class=" ms-0 mb-0 about-content-title " style="color: #015e91;">Halil Akkaya</h2>
+                        <span class="about-content-title">  <span id="typed"></span> </span>
+                        <p class="mt-3 about-content-description" >
+                            <span>Merhaba <i class="bi bi-emoji-smile me-1 "></i></span><br>
+                            Merhaba Ben Halil 2003'te Burdur'da Doğdum. İlkokul 2.Sınıf'a Kadar Köy Okulunda Eğitim Gördüm. Sonra Ailemin Yanına Denizli'ye Geldim Lise Eğitimimi Özel Teknik Bir Lisede Yenilenebilir Enerji Dalı Üzerine Eğitim Gördüm Daha Sonra Memleketim Olan Burdur'a Üniversite Hayatı İçin Geri Geldim Şimdilik Bu Kadar. 
+                            <p class="about-content-description"> Bilgisayarla İlk Tanışma Anım Köy Okulunda Bilişim Sınıfındadır Köydeki Hocamın Destekleriyle Birlikte Olmuştu. Lisede Gördüğüm Phyton Eğitimi Sayesinde Kodlamaya Merak Saldım Ve Hayatımı Sürekli Gelişen Bu Sektörde Devam Etmeye Karar Verdim... </p></p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- education start -->
+    <section id="education" class="headline mt-0 mb-0 pt-3 pb-5">
+        <div class="container-fluid">
+            <h5 class="display-5 text-center css-h5">
+                <i class="fa-solid fa-user-graduate me-2"></i>EĞİTİM</h5>
+                <hr class="mt-0">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="card  edu-card mt-3"  >
+                        <div class="row ">
+                            <div class="col-md-5 card-img-div mt-2 mb-2">
+                                <img src="assests/img/maku.jpg" alt="" class=" card-img">
+                            </div>
+                            <div class="col-md-7 card-body-div">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <h3>MEHMET AKİF ERSOY ÜNİVERSİTESİ</h3>
+                                        <h5>Teknik Bilimler Fakültesi</h5>
+                                        <h5>Bilgisayar Programcılığı</h5>
+                                        <hr>
+                                    </div>
+                                    <div class="card-text">
+                                        <p>Eylül 2022 -  2024 <span><i class="fa-solid fa-check ms-1"></i></span></p>
+                                    </div><!-- card-text-end -->
+                                </div><!-- card-body-end -->
+                            </div><!-- card-body-div-end -->                            
+                        </div><!-- row-end -->
+                    </div>  <!-- card-end -->
+                </div> <!-- row-end -->                               
+            </div><!-- container-end -->            
+        </div><!-- container-fluid-end -->        
+    </section> 
+    <!-- skills start -->
+    <section id="skills" class="headline mt-0 "style="border-radius: 10px;">
+        <div class="container-fluid pt-4 pb-4" style="background-color: #c7c7c7; border-radius: 10px;">
+            <h5 class="display-5 text-center css-h5">
+                <i class='fas fa-award me-2'></i>YETKİNLİKLER</h5>
+                <hr class="mt-0">
+            <div class="container">
+                <div class="row mt-4 mb-2 justify-content-center skill-container">
+                    <div class="col-12 col-md-5 mb-2 mb-md-0 me-lg-3 p-2 skill-col-1">
+                            <div id="skills-div" class="skills-c-sharp mb-4 p-3 pb-4 me-md-5">
+                                <div class="skills-body"> 
+                                    <div class="progressbar-title">
+                                        <div class="language-title">
+                                        <h3><div class="skills-icon d-inline-flex">JAVA</div>
+                                            </h3>
+                                        <span class="percent-text">60%</span>
+                                    </div>                                    
+                                    <span class="percent" id="java-pourcent"></span>
+                                </div>
+                                <div class="bar-container">
+                                    <span class="progressbar progressorange" id="progress-java"></span>
+                                </div></div>
+                               
+                            </div>
+                            
+                            
+                            <div id="skills-div" class="skills-html mb-4 p-3 pb-4 me-md-5">
+                                <div class="progressbar-title">
+                                    <div class="language-title">
+                                        <h3><i class="fa-brands fa-html5 fa-lg me-2"></i>HTML5</h3>
+                                        <span class="percent-text">80%</span>
+                                    </div>
+                                    <span class="percent" id="html-pourcent"></span>
+                                </div>
+                                <div class="bar-container">
+                                    <span class="progressbar progressblue" id="progress-html"></span>
+                                </div>
+                            </div>
+
+                            <div id="skills-div" class="skills-css mb-4 p-3 pb-4 me-md-5">
+                                <div class="progressbar-title">
+                                    <div class="language-title">
+                                        <h3><i class="fa-brands fa-css3-alt fa-lg me-2"></i>CSS3</h3>
+                                        <span class="percent-text">80%</span>
+                                    </div>
+                                    <span class="percent" id="css-pourcent"></span>
+                                </div>
+                                <div class="bar-container">
+                                    <span class="progressbar progressred" id="progress-css"></span>
+                                </div>
+                            </div>
+                            <div id="skills-div" class="skills-bootstrap p-3 pb-4 me-md-5 mb-md-4">
+                                <div class="progressbar-title">
+                                    <div class="language-title">
+                                        <h3><i class="fa-brands fa-bootstrap fa-lg me-2"></i>BOOTSTRAP5</h3>
+                                        <span class="percent-text">50%</span>
+                                    </div>
+                                    <span class="percent" id="bootstrap-pourcent"></span>
+                                </div>
+                                <div class="bar-container">
+                                    <span class="progressbar progressgreen" id="progress-bootstrap"></span>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="col-12 col-md-5 ms-lg-3 p-2 skill-col-2">
+                        <div id="skills-div" class="skills-php mb-4 p-3 pb-4 me-md-5">
+                            <div class="progressbar-title">
+                                <div class="language-title">
+                                    <h3><i class="fa-brands fa-php fa-lg me-2"></i>PHP</h3>
+                                    <span class="percent-text">50%</span>
+                                </div>
+                                <span class="percent" id="php-pourcent"></span>
+                            </div>
+                            <div class="bar-container">
+                                <span class="progressbar progressred" id="progress-php"></span>
+                            </div>
+                        </div>
+                        <div id="skills-div" class="skills-js mb-4 p-3 pb-4 me-md-5">
+                            <div class="progressbar-title">
+                                <div class="language-title">
+                                    <h3><i class="fa-brands fa-js-square fa-lg me-2"></i>JAVASCRIPT</h3>
+                                    <span class="percent-text">60%</span>
+                                </div>
+                                <span class="percent" id="js-pourcent"></span>
+                            </div>
+                            <div class="bar-container">
+                                <span class="progressbar progressblue" id="progress-js"></span>
+                            </div>
+                        </div>
+                        <div id="skills-div" class="skills-jquery mb-4 p-3 pb-4 me-md-5">
+                            <div class="progressbar-title">
+                                <div class="language-title">
+                                    <h3>C#</h3>
+                                    <span class="percent-text">50%</span>
+                                </div>
+                                <span class="percent" id="jquery-pourcent"></span>
+                            </div>
+                            <div class="bar-container">
+                                <span class="progressbar progresspurple" id="progress-jquery"></span>
+                            </div>
+                        </div>
+                        <div id="skills-div" class="skills-python mb-4 p-3 pb-4 me-md-5">
+                            <div class="progressbar-title">
+                                <div class="language-title">
+                                    <h3>PYTHON</h3>
+                                    <span class="percent-text">60%</span>
+                                </div>
+                                <span class="percent" id="python-pourcent"></span>
+                            </div>
+                            <div class="bar-container">
+                                <span class="progressbar progressorange" id="progress-python"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>            
+            </div>
+        </div>
+    </section>
+    <!-- contact start -->
+    <!-- footer start -->     
+    <footer id="footer" class="pb-2" style="background: #1a1b26;">
+       <div class="container-fluid p-3">
+            <div class="row">
+                <div class="col-lg-3 pt-3 text-center footer-left d-flex justify-content-center">
+                <h1 class="footer-title text-uppercase mt-auto mb-auto">
+                    <span class="footer-title-content ms-auto">The start</span>
+                    <span class="footer-title-content">is the most</span>
+                    <span class="footer-title-content"> important part of</span>
+                    <span class="footer-title-content"> the business.</span>
+                   </h1>
+                </div>
+                <div class="container text-center col-lg-4 pt-3 mt-3 mt-lg-0 footer-center">
+                <h5 style="color:#c2c2c2;">İLETİŞİM <hr class="mt-1"></h5>
+                <div class="ms-2">
+                    <div class="text-start">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p><span>Burdur</span></p>
+                    </div>
+                    <div class="text-start">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p><a class="mail-link text-decoration-none" href="mailto:halilakkayatr@gmail.com" target="_blank">halilakkayatr@gmail.com</a></p>
+                    </div>
+                    <div class="text-start">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>0546 536 8213</p>
+                    </div>
+                </div>
+                </div>
+                <div class="col-lg-4 pt-3 mt-3 mt-lg-0 text-center footer-right d-flex">
+                <div class="container">
+                    <a href="#main-body" class="text-uppercase text-decoration-none" id="logo" title="Ana Sayfa">halil akkaya</a>
+                    <ul class="text-start list-unstyled ms-2 mt-3">
+                        <li><a href="#main-body" class="text-decoration-none"><i class="fa-solid fa-angle-right"></i><i class="fa-solid fa-angle-right me-1"></i>Ana Sayfa</a></li>
+                        <li><a href="#about" class="text-decoration-none"><i class="fa-solid fa-angle-right"></i><i class="fa-solid fa-angle-right me-1"></i>Hakkımda</a> </li>
+                        <li><a href="#education" class="text-decoration-none"><i class="fa-solid fa-angle-right"></i><i class="fa-solid fa-angle-right me-1"></i>Eğitim</a> </li>
+                        <li><a href="#skills" class="text-decoration-none"><i class="fa-solid fa-angle-right"></i><i class="fa-solid fa-angle-right me-1"></i>Yetkinliklerim</a> </li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+       </div>
+       <div class="container-fluid">
+        <hr style="height:2px; border-radius: 10px;"class="bg-light mb-0 mt-0">
+        <div class="row d-flex mt-2 ps-3 pe-3 footer-bottom">
+            <div class="col-sm-7 ms-0 text-center text-sm-start footer-bottom-info" style="color: #c2c2c2;">CODE & DESIGN BY HALIL AKKAYA</div>
+            <div class="col-sm-5 mt-2 mt-sm-0 text-center text-sm-end">
+                <ul class="list-inline">
+                    <li class="list-inline-item mb-1 instagram"><a href="https://www.instagram.com/_halil.akkaya/" class="text-decoration-none text-black" target="_blank"><i class="fa-brands fa-instagram instagram"></i></a></li>
+                    <li class="list-inline-item mb-1 twitter"><a href="https://twitter.com/_halilimsi" class="text-decoration-none text-black" target="_blank"><i class="fa-brands fa-twitter twitter"></i></a></li>
+                    <li class="list-inline-item mb-1 linkedin"><a href="https://www.linkedin.com/in/halil-akkaya-b14586241/" class="text-decoration-none text-black" target="_blank"><i class="fa-brands fa-linkedin linkedin"></i></a></li>
+                    <li class="list-inline-item github"><a href="https://github.com/Halilq" class="text-decoration-none text-black" target="_blank"><i class="fa-brands fa-github github"></i></a></li>
+                </ul>
+            </div>
+        </div>
+       </div>
+       
+    </footer>
+    <!-- Bootstrap js  -->
+    <script src="assests/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- FontAwesome js -->
+    <script src="https://kit.fontawesome.com/35d310d416.js" crossorigin="anonymous"></script>
+    <!--  Jquery js -->
+    <script src="assests/js/jquery-3.6.0.min.js"></script>
+    <!-- Custom js -->
+    <script src="assests/js/custom/extra.js"></script>
+    <script src="assests/js/custom/scrollReveal.js"></script>
+    <script>
+             
+    </script>
+</body>
+</html>
